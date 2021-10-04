@@ -594,7 +594,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: #78cc6d;
+	color: #78cc6d !important;
 }
 
 /* lists */

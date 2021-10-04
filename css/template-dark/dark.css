@@ -71,6 +71,9 @@ h6 {
 }
 
 a {
+	color: rgba(255, 255, 255, 1);
+}
+li a {
 	color: rgba(255, 255, 255, 0.55);
 }
 
@@ -270,7 +273,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .resume-items .resume-item .name {
-	color: rgba(255, 255, 255, 0.85);
+	color: rgb(255, 255, 255);
 }
 
 .skills-list ul li .name {
@@ -450,10 +453,6 @@ input, textarea, button, input[type="submit"] {
 	border-color: #666;
 }
 
-.resume-items .resume-item .date {
-	color: #666;
-	border-color: #666;
-}
 
 .post-comments .post-comment .desc span.comment-reply a {
 	color: rgba(255,255,255,0.85);
