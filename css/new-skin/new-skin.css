@@ -638,8 +638,14 @@ input[type="file"] {
 	height: 100%;
 }
 
+@media (min-width: 561px) {
+	.card-started .profile {
+		padding: 50px;
+	}
+}
+
 .card-started .profile {
-	padding: 50px;
+	padding: 100px 0px;
 	position: relative;
 	left: 0%;
 	width: 100%;
@@ -650,8 +656,10 @@ input[type="file"] {
 	justify-content: center;
 }
 
+@media (min-width: 561px) {
 .card-started .profile.no-photo {
 	padding-top: 50px;
+}
 }
 
 .card-started .profile.no-photo .title {

@@ -408,7 +408,7 @@
 	}
 
 	.card-started .profile {
-		padding: 135px 25px 25px 25px;
+		padding: 135px 0px 25px 0px;
 	}
 
 	.card-started .profile.no-photo {
