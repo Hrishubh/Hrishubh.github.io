@@ -828,7 +828,6 @@ input[type="file"] {
 	line-height: 21px;
 	min-height: 51px;
 	font-weight: 600;
-	z-index: 2;
 }
 
 .content .title.no-title:before {

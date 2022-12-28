@@ -389,10 +389,23 @@ let plugin = document.getElementById("plugin");
 let pluginText = document.getElementById("plugin-text");
 let text = "Dark Mode";
 let color = 0;
+let time;
+
+const d = new Date(); // get current date
+const hour = d.getHours(); 
+
+if(hour < 8 && hour > 21)
+  time="dark"
+else
+  time="light"
 
 console.log(localStorage.getItem("colorMode"));
 if (localStorage.getItem("colorMode") == null)
-  localStorage.setItem("colorMode", "dark");
+  if(time=="dark"){
+    setDarkMode();
+  }else{
+    setLightMode();
+  }
 else {
   color = localStorage.getItem("colorMode") == "dark" ? 0 : 1;
   text =
